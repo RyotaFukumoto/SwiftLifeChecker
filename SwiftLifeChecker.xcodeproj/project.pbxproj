@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3F719E62A8FB5FB00BF167A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F719E52A8FB5FB00BF167A /* AppDelegate.swift */; };
+		A3F719E82A8FB5FB00BF167A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F719E72A8FB5FB00BF167A /* SceneDelegate.swift */; };
+		A3F719EA2A8FB5FB00BF167A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F719E92A8FB5FB00BF167A /* ViewController.swift */; };
+		A3F719ED2A8FB5FC00BF167A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F719EB2A8FB5FC00BF167A /* Main.storyboard */; };
+		A3F719EF2A8FB60100BF167A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F719EE2A8FB60100BF167A /* Assets.xcassets */; };
+		A3F719F22A8FB60100BF167A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F719F02A8FB60100BF167A /* LaunchScreen.storyboard */; };
+		A3F719FD2A8FB60300BF167A /* SwiftLifeCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F719FC2A8FB60300BF167A /* SwiftLifeCheckerTests.swift */; };
+		A3F71A072A8FB60300BF167A /* SwiftLifeCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F71A062A8FB60300BF167A /* SwiftLifeCheckerUITests.swift */; };
+		A3F71A092A8FB60300BF167A /* SwiftLifeCheckerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F71A082A8FB60300BF167A /* SwiftLifeCheckerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3F719F92A8FB60300BF167A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F719DA2A8FB5FB00BF167A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F719E12A8FB5FB00BF167A;
+			remoteInfo = SwiftLifeChecker;
+		};
+		A3F71A032A8FB60300BF167A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F719DA2A8FB5FB00BF167A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F719E12A8FB5FB00BF167A;
+			remoteInfo = SwiftLifeChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3F719E22A8FB5FB00BF167A /* SwiftLifeChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLifeChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F719E52A8FB5FB00BF167A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3F719E72A8FB5FB00BF167A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A3F719E92A8FB5FB00BF167A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3F719EC2A8FB5FC00BF167A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3F719EE2A8FB60100BF167A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3F719F12A8FB60100BF167A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3F719F32A8FB60100BF167A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F719F82A8FB60300BF167A /* SwiftLifeCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLifeCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F719FC2A8FB60300BF167A /* SwiftLifeCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLifeCheckerTests.swift; sourceTree = "<group>"; };
+		A3F71A022A8FB60300BF167A /* SwiftLifeCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLifeCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F71A062A8FB60300BF167A /* SwiftLifeCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLifeCheckerUITests.swift; sourceTree = "<group>"; };
+		A3F71A082A8FB60300BF167A /* SwiftLifeCheckerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLifeCheckerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F719DF2A8FB5FB00BF167A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F719F52A8FB60300BF167A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F719FF2A8FB60300BF167A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3F719D92A8FB5FB00BF167A = {
+			isa = PBXGroup;
+			children = (
+				A3F719E42A8FB5FB00BF167A /* SwiftLifeChecker */,
+				A3F719FB2A8FB60300BF167A /* SwiftLifeCheckerTests */,
+				A3F71A052A8FB60300BF167A /* SwiftLifeCheckerUITests */,
+				A3F719E32A8FB5FB00BF167A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3F719E32A8FB5FB00BF167A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F719E22A8FB5FB00BF167A /* SwiftLifeChecker.app */,
+				A3F719F82A8FB60300BF167A /* SwiftLifeCheckerTests.xctest */,
+				A3F71A022A8FB60300BF167A /* SwiftLifeCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3F719E42A8FB5FB00BF167A /* SwiftLifeChecker */ = {
+			isa = PBXGroup;
+			children = (
+				A3F719E52A8FB5FB00BF167A /* AppDelegate.swift */,
+				A3F719E72A8FB5FB00BF167A /* SceneDelegate.swift */,
+				A3F719E92A8FB5FB00BF167A /* ViewController.swift */,
+				A3F719EB2A8FB5FC00BF167A /* Main.storyboard */,
+				A3F719EE2A8FB60100BF167A /* Assets.xcassets */,
+				A3F719F02A8FB60100BF167A /* LaunchScreen.storyboard */,
+				A3F719F32A8FB60100BF167A /* Info.plist */,
+			);
+			path = SwiftLifeChecker;
+			sourceTree = "<group>";
+		};
+		A3F719FB2A8FB60300BF167A /* SwiftLifeCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F719FC2A8FB60300BF167A /* SwiftLifeCheckerTests.swift */,
+			);
+			path = SwiftLifeCheckerTests;
+			sourceTree = "<group>";
+		};
+		A3F71A052A8FB60300BF167A /* SwiftLifeCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F71A062A8FB60300BF167A /* SwiftLifeCheckerUITests.swift */,
+				A3F71A082A8FB60300BF167A /* SwiftLifeCheckerUITestsLaunchTests.swift */,
+			);
+			path = SwiftLifeCheckerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3F719E12A8FB5FB00BF167A /* SwiftLifeChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F71A0C2A8FB60300BF167A /* Build configuration list for PBXNativeTarget "SwiftLifeChecker" */;
+			buildPhases = (
+				A3F719DE2A8FB5FB00BF167A /* Sources */,
+				A3F719DF2A8FB5FB00BF167A /* Frameworks */,
+				A3F719E02A8FB5FB00BF167A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLifeChecker;
+			productName = SwiftLifeChecker;
+			productReference = A3F719E22A8FB5FB00BF167A /* SwiftLifeChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3F719F72A8FB60300BF167A /* SwiftLifeCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F71A0F2A8FB60300BF167A /* Build configuration list for PBXNativeTarget "SwiftLifeCheckerTests" */;
+			buildPhases = (
+				A3F719F42A8FB60300BF167A /* Sources */,
+				A3F719F52A8FB60300BF167A /* Frameworks */,
+				A3F719F62A8FB60300BF167A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F719FA2A8FB60300BF167A /* PBXTargetDependency */,
+			);
+			name = SwiftLifeCheckerTests;
+			productName = SwiftLifeCheckerTests;
+			productReference = A3F719F82A8FB60300BF167A /* SwiftLifeCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3F71A012A8FB60300BF167A /* SwiftLifeCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F71A122A8FB60300BF167A /* Build configuration list for PBXNativeTarget "SwiftLifeCheckerUITests" */;
+			buildPhases = (
+				A3F719FE2A8FB60300BF167A /* Sources */,
+				A3F719FF2A8FB60300BF167A /* Frameworks */,
+				A3F71A002A8FB60300BF167A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F71A042A8FB60300BF167A /* PBXTargetDependency */,
+			);
+			name = SwiftLifeCheckerUITests;
+			productName = SwiftLifeCheckerUITests;
+			productReference = A3F71A022A8FB60300BF167A /* SwiftLifeCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3F719DA2A8FB5FB00BF167A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A3F719E12A8FB5FB00BF167A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A3F719F72A8FB60300BF167A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A3F719E12A8FB5FB00BF167A;
+					};
+					A3F71A012A8FB60300BF167A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A3F719E12A8FB5FB00BF167A;
+					};
+				};
+			};
+			buildConfigurationList = A3F719DD2A8FB5FB00BF167A /* Build configuration list for PBXProject "SwiftLifeChecker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3F719D92A8FB5FB00BF167A;
+			productRefGroup = A3F719E32A8FB5FB00BF167A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3F719E12A8FB5FB00BF167A /* SwiftLifeChecker */,
+				A3F719F72A8FB60300BF167A /* SwiftLifeCheckerTests */,
+				A3F71A012A8FB60300BF167A /* SwiftLifeCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3F719E02A8FB5FB00BF167A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F719F22A8FB60100BF167A /* LaunchScreen.storyboard in Resources */,
+				A3F719EF2A8FB60100BF167A /* Assets.xcassets in Resources */,
+				A3F719ED2A8FB5FC00BF167A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F719F62A8FB60300BF167A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F71A002A8FB60300BF167A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3F719DE2A8FB5FB00BF167A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F719EA2A8FB5FB00BF167A /* ViewController.swift in Sources */,
+				A3F719E62A8FB5FB00BF167A /* AppDelegate.swift in Sources */,
+				A3F719E82A8FB5FB00BF167A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F719F42A8FB60300BF167A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F719FD2A8FB60300BF167A /* SwiftLifeCheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F719FE2A8FB60300BF167A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F71A092A8FB60300BF167A /* SwiftLifeCheckerUITestsLaunchTests.swift in Sources */,
+				A3F71A072A8FB60300BF167A /* SwiftLifeCheckerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3F719FA2A8FB60300BF167A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F719E12A8FB5FB00BF167A /* SwiftLifeChecker */;
+			targetProxy = A3F719F92A8FB60300BF167A /* PBXContainerItemProxy */;
+		};
+		A3F71A042A8FB60300BF167A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F719E12A8FB5FB00BF167A /* SwiftLifeChecker */;
+			targetProxy = A3F71A032A8FB60300BF167A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3F719EB2A8FB5FC00BF167A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F719EC2A8FB5FC00BF167A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3F719F02A8FB60100BF167A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F719F12A8FB60100BF167A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3F71A0A2A8FB60300BF167A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3F71A0B2A8FB60300BF167A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3F71A0D2A8FB60300BF167A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F39YLTWJFM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftLifeChecker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FRyota.SwiftLifeChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3F71A0E2A8FB60300BF167A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F39YLTWJFM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftLifeChecker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FRyota.SwiftLifeChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3F71A102A8FB60300BF167A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F39YLTWJFM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FRyota.SwiftLifeCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLifeChecker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftLifeChecker";
+			};
+			name = Debug;
+		};
+		A3F71A112A8FB60300BF167A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F39YLTWJFM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FRyota.SwiftLifeCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLifeChecker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftLifeChecker";
+			};
+			name = Release;
+		};
+		A3F71A132A8FB60300BF167A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F39YLTWJFM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FRyota.SwiftLifeCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftLifeChecker;
+			};
+			name = Debug;
+		};
+		A3F71A142A8FB60300BF167A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F39YLTWJFM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FRyota.SwiftLifeCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftLifeChecker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3F719DD2A8FB5FB00BF167A /* Build configuration list for PBXProject "SwiftLifeChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F71A0A2A8FB60300BF167A /* Debug */,
+				A3F71A0B2A8FB60300BF167A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F71A0C2A8FB60300BF167A /* Build configuration list for PBXNativeTarget "SwiftLifeChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F71A0D2A8FB60300BF167A /* Debug */,
+				A3F71A0E2A8FB60300BF167A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F71A0F2A8FB60300BF167A /* Build configuration list for PBXNativeTarget "SwiftLifeCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F71A102A8FB60300BF167A /* Debug */,
+				A3F71A112A8FB60300BF167A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F71A122A8FB60300BF167A /* Build configuration list for PBXNativeTarget "SwiftLifeCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F71A132A8FB60300BF167A /* Debug */,
+				A3F71A142A8FB60300BF167A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3F719DA2A8FB5FB00BF167A /* Project object */;
+}
